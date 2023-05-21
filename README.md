@@ -33,14 +33,13 @@ any problems!
 ## Rocketpool Node Operators
 
 Beginning with version vX.X.X, this arbitrage tool has been included as an official Rocketpool add-on. Here are the steps to using it:
-
-'''
+```
 rpl@node:~$ rocketpool service config
 + Addons
 + Rocketarb
 + tick the box named "Enabled"
 + save config and restart service
-'''
+```
 
 ## Docker mode
 
