@@ -30,6 +30,18 @@ The Rocket Pool protocol continues to evolve over time. In the future when ETH w
 How to? Here are the steps... Message me (ramana#2626) on the RocketPool Discord if you have
 any problems!
 
+## Rocketpool Node Operators
+
+Beginning with version vX.X.X, this arbitrage tool has been included as an official Rocketpool add-on. Here are the steps to using it:
+
+'''
+rpl@node:~$ rocketpool service config
++ Addons
++ Rocketarb
++ tick the box named "Enabled"
++ save config and restart service
+'''
+
 ## Docker mode
 
 If you have Docker installed, you can run `rocketarb` with no
